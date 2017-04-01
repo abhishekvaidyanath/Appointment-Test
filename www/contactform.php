@@ -13,7 +13,7 @@ $formproc = new FGContactForm();
 
 //1. Add your email address here.
 //You can add more than one receipients.
-$formproc->AddRecipient('tests@html-form-guide.com'); //<<---Put your email address here
+$formproc->AddRecipient('abhishekvaidyanath@gmail.com.com'); //<<---Put your email address here
 
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
@@ -70,7 +70,7 @@ if(isset($_POST['submitted']))
     <span id='contactus_phone_errorloc' class='error'></span>
 </div>
 <div class='container'>
-    <label for='message' >Message:</label><br/>
+    <label for='message' >Apppointment Date and Time*:</label><br/>
     <span id='contactus_message_errorloc' class='error'></span>
     <textarea rows="10" cols="50" name='message' id='message'><?php echo $formproc->SafeDisplay('message') ?></textarea>
 </div>
