@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<h2>Thanks for contacting us!</h2>
+<h2>Thanks you booking an appointment! We will contact you soon</h2>
 
 </body>
 </html>
